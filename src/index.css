@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/** About Section */
+#profile-img-container:hover #profile-img-before {
+    opacity: 0;
+}
+
+#profile-img-container:hover #profile-img-after {
+    transform: translate(0.5rem, 0.5rem);
+}
+
+/** Featured Section */
+.project-card:hover h4 {
+    color: rgb(56 189 248);
+}
+
+.project-card:hover #folder-icon {
+    opacity: 0;
+}
+
+.project-card:hover #hover-folder-icon {
+    opacity: 1;
+}

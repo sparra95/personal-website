@@ -1,0 +1,5 @@
+export { default as Button} from './Button.jsx'
+export { default as Link} from './Link.jsx'
+export { default as Section} from './Section.jsx'
+export { default as SectionTitle} from './SectionTitle.jsx'
+export { default as Paragraph} from './Paragraph.jsx' 
