@@ -15,9 +15,9 @@ const Projects = ({num}) => {
             <ul className="w-full flex flex-col md:flex-row flex-wrap justify-center lg:justify-start">
                 {projectsData.map((project, i) => (
                         /** Card */
+                        
                         <li key={'project-'+i} className="project-card min-w-[250px] max-w-[300px] min-h-[300px] mb-4 md:mr-4 p-4 flex flex-1 flex-col rounded bg-[#111e40] drop-shadow-lg backdrop-blur-sm backdrop-opacity-5 hover:-translate-y-2 transition duration-200 ease-out">
-                            <a href={project.demoUrl} target="_blank" onClick={(e) => !project.demoUrl && e.preventDefault()}>
-                                
+                            <a href={project.demoUrl} target="_blank" onClick={(e) => (!project.demoUrl || window.innerWidth <= 425) && e.preventDefault()} className="flex flex-col h-full justify-between">
                                 {/** Icons */}
                                 <div className="relative w-full flex justify-between items-center mb-4">
                                     <MdOutlineFolder id="folder-icon" className="text-5xl text-sky-400 opacity-100 transition-all ease-out" />
@@ -30,15 +30,17 @@ const Projects = ({num}) => {
                                 </div>
 
                                 {/** Title */}
-                                <h4 className="text-lg font-bold mb-2 transition-all ease-out">
-                                    {project.title}
+                                <h4 className="text-lg font-bold mb-2 transition-all ease-out hover:text-sky-400">
+                                    
+                                        {project.title}
+                                    
                                 </h4>
                                 
                                 {/** Details */}
                                 <Paragraph css="text-sm leading-5 max-h-36 overflow-hidden text-slate-300">{project.description}</Paragraph>
                                 
                                 {/** Tech stack */}
-                                <div className="font-mono text-sm mt-auto text-slate-400">
+                                <div className="font-mono text-sm mt-auto text-slate-400 mt-auto">
                                     {project.tech.map((tech, j) => (<span key={'project-'+i+'-tech-'+j}>{tech}&nbsp; </span>) )}
                                 </div>
                             </a>
