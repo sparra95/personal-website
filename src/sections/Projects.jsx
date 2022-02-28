@@ -30,7 +30,7 @@ const Projects = ({num}) => {
 
                                 {/** Title */}
                                 <h4 className="text-lg font-bold mb-2 transition-all ease-out hover:text-sky-400">
-                                    <a href={project.demoUrl} target="_blank" onClick={(e) => (!project.demoUrl || window.innerWidth <= 425) && e.preventDefault()} className="flex flex-col h-full justify-between">
+                                    <a href={project.demoUrl} target="_blank" onClick={(e) => !project.demoUrl && e.preventDefault()} className="flex flex-col h-full justify-between">
                                         {project.title}
                                     </a>
                                 </h4>
