@@ -1,7 +1,7 @@
 export default [
     {
         title: "Ethereum Blockchain Transfer App",
-        description: `Dabbling with Web3 technology, I built an app allowing users to connect their Metamask wallet and send ETH to any other wallet on the Ethereum network. Users can include a message and post a gif along with their transaction and save it on the blockchain.`,
+        description: `A smart contract and web app where users can connect their Metamask wallet and send ETH across the Ethereum network. Transactions can include a message and gif and are saved on the blockchain.`,
         githubUrl: "https://github.com/sparra95/web3-blockchain-app",
         demoUrl: "http://web3-blockchain-app.stevenparra.digital/",
         tech: [
@@ -16,7 +16,7 @@ export default [
     },
     {
         title: "eCommerce React App",
-        description: `A fuctionally-complete eCommerce app, it allows users to add/remove & view items in their cart, go through a simple multi-step checkout process, and pay for their items with a credit or debit card thanks to the Stripe API.`,
+        description: `A functionally-complete eCommerce app allowing users to add, remove, and view items in their cart, checkout via a simple multi-step process, and pay for their items with a credit or debit card using Stripe API.`,
         githubUrl: "https://github.com/sparra95/eCommerce-React-webapp",
         demoUrl: "http://ecommerce-react-app.stevenparra.digital/",
         tech: [

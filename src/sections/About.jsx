@@ -1,4 +1,5 @@
 import { Section, SectionTitle, Paragraph, Link } from '../components/'
+import myProfileImg from "../profile.jpg"
 
 const skills = ["HTML", "CSS (Sass, Tailwind)", "JavaScript (ES6+)", "React", "Python", "Angular"]
 
@@ -25,9 +26,9 @@ const About = ({num}) => {
                         to better collaborate with teams, negotiate with clients, build interfaces based on feedback, and much more.
                     </Paragraph>
                     <Paragraph>
-                        Most currently, I've been building my knowledge and skills in Web 3.0 technologies 
-                        while looking to settle into a permanent position with a forward-thinking company  
-                        with an impactful product to help build elegant &amp; engaging user experiences.
+                        Most currently, I'm developing my skills in Web 3.0 technologies 
+                        while looking for a permanent position with a forward-thinking company  
+                        with an impactful product to help them build elegant &amp; engaging user experiences.
                     </Paragraph>
 
                     {/** Skill list */}
@@ -44,7 +45,7 @@ const About = ({num}) => {
                     {/** Profile Image */}
                     <div id="profile-img-container" className="w-11/12 h-fit max-w-[300px] relative z-0">
                         <div id="profile-img-before" className="absolute w-full h-full z-0 bg-sky-400 opacity-40 transition duration-200 ease-out" />
-                        <img className="object-cover rounded border border-sky-400" src="/src/profile.jpg"/>
+                        <img className="object-cover rounded border border-sky-400" src={myProfileImg}/>
                         <div id="profile-img-after" className="absolute w-full h-full z-[-1] top-4 left-4 rounded border border-sky-400 transition duration-200 ease-out" />
                     </div>
                 </div>

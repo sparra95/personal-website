@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Button } from '../components/'
-import myResume from "../../resume.pdf"
+import myResume from "../resume.pdf"
 
 import { GiArtificialIntelligence } from 'react-icons/gi'
 import { AiOutlineClose } from 'react-icons/ai'
