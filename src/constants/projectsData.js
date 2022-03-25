@@ -17,6 +17,20 @@ export default [
         ] 
     },
     {
+        title: "Crypto Price & News Tracker",
+        description: `Users can see global cryptocurrency stats along with details of the top 100 cryptocurrencies by market cap and search top cryptocurrency news.`,
+        githubUrl: "https://github.com/sparra95/crypto-tracker",
+        demoUrl: "http://crypto-tracker.stevenparra.digital/",
+        tech: [
+            "HTML",
+            "CSS (Ant Design)",
+            "JavaScript",
+            "React",
+            "Chart.js 2",
+            "Rapid API (Coinranking API, Bing News API)"
+        ] 
+    },
+    {
         title: "Ethereum Transfer App",
         description: `A smart contract and web app where users can connect their Metamask wallet and send ETH across the Ethereum network. Transactions can include a message and gif and are saved on the blockchain.`,
         githubUrl: "https://github.com/sparra95/web3-blockchain-app",
