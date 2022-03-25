@@ -1,6 +1,23 @@
 export default [
     {
-        title: "Ethereum Blockchain Transfer App",
+        title: "Ethereum Transfer App V2",
+        description: `Users connect their Metamask wallet to send ETH to other wallets across the Ropsten Network (an Ethereum test network). Transactions can include a message and keyword to post a gif. A history of all transactions made via the smart contract are shown updated as new transactions are made.`,
+        githubUrl: "https://github.com/sparra95/eth-transfer-v2",
+        demoUrl: "http://eth-transfer-app-v2.stevenparra.digital/",
+        tech: [
+            "HTML",
+            "CSS (Tailwind)",
+            "JavaScript",
+            "React",
+            "Solidity",
+            "Hardhat",
+            "Alchemy API",
+            "Giphy API",
+            "Firebase"
+        ] 
+    },
+    {
+        title: "Ethereum Transfer App",
         description: `A smart contract and web app where users can connect their Metamask wallet and send ETH across the Ethereum network. Transactions can include a message and gif and are saved on the blockchain.`,
         githubUrl: "https://github.com/sparra95/web3-blockchain-app",
         demoUrl: "http://web3-blockchain-app.stevenparra.digital/",

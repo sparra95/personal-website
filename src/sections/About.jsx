@@ -1,5 +1,6 @@
 import { Section, SectionTitle, Paragraph, Link } from '../components/'
-import myProfileImg from "../profile.jpg"
+import myProfileimg from "../profile.png"
+//import myProfileimg2 from "../profile2.png"
 
 const skills = ["HTML", "CSS (Sass, Tailwind)", "JavaScript (ES6+)", "React", "Python", "Angular"]
 
@@ -45,7 +46,7 @@ const About = ({num}) => {
                     {/** Profile Image */}
                     <div id="profile-img-container" className="w-11/12 h-fit max-w-[300px] relative z-0">
                         <div id="profile-img-before" className="absolute w-full h-full z-0 bg-sky-400 opacity-40 transition duration-200 ease-out" />
-                        <img className="object-cover rounded border border-sky-400" src={myProfileImg}/>
+                        <img className="object-cover rounded border border-sky-400" src={myProfileimg}/>
                         <div id="profile-img-after" className="absolute w-full h-full z-[-1] top-4 left-4 rounded border border-sky-400 transition duration-200 ease-out" />
                     </div>
                 </div>

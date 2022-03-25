@@ -40,7 +40,9 @@ const Projects = ({num}) => {
                                 
                                 {/** Tech stack */}
                                 <div className="font-mono text-sm mt-auto text-slate-400 mt-auto">
-                                    {project.tech.map((tech, j) => (<span key={'project-'+i+'-tech-'+j}>{tech}&nbsp; </span>) )}
+                                    {project.tech.map((tech, j) => (
+                                        <span key={'project-'+i+'-tech-'+j}>{tech}&nbsp; </span>
+                                    ))}
                                 </div>
                         </li>
                     ))
